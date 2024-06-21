@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ds210"
+version = "0.1.0"
+description = ""
+authors = ["scaperoth@berkeley.edu <scaperoth@berkeley.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+xgboost = "^2.1.0"
+scikit-learn = "^1.5.0"
+numpy = "^2.0.0"
+ipykernel = "^6.29.4"
+jupyterlab = "^4.2.2"
+pandas = "^2.2.2"
+matplotlib = "^3.9.0"
+seaborn = "^0.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
